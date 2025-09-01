@@ -29,12 +29,19 @@ def calculadora():
             continue
 
         # esse bloco de if e else seleciona a operação a ser feita
+        # identifica a opção 1 soma o num1 + o num2 e mostra na tela
         if opcao == "1":
             print(f"Resultado: {num1} + {num2} = {num1 + num2}")
+
+        # identifica a opção 2 subitrai o num1 - o num2 e mostra na tela
         elif opcao == "2":
             print(f"Resultado: {num1} - {num2} = {num1 - num2}")
+
+        # identifica a opção 3 multiplica o num1 * o num2 e mostra na tela
         elif opcao == "3":
             print(f"Resultado: {num1} * {num2} = {num1 * num2}")
+
+        # identifica a opção 4 verifica se o numero digitado é zero se nao for  divide o num1 / o num2 e mostra na tela
         elif opcao == "4":
             if num2 == 0:
                 print("⚠️ Erro: divisão por zero não é permitida!")
